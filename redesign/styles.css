@@ -2,7 +2,7 @@
    CSS Variables - Professional Color Palette
    ============================================ */
 :root {
-    --primary-color: #1e3a8a;      /* Navy Blue */
+    --primary-color: #545558;      
     --secondary-color: #d4af37;     /* Gold */
     --accent-color: #f8fafc;        /* Light Gray */
     --text-dark: #1f2937;           /* Dark Gray */
@@ -13,9 +13,6 @@
     --transition: all 0.3s ease;
 }
 
-/* ============================================
-   Global Styles
-   ============================================ */
 * {
     margin: 0;
     padding: 0;
@@ -100,11 +97,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, var(--primary-color) 0%, #2563eb 100%);
-    background-image: url('images/uploads/10318/66498781d42f6_Financni-poradenstvi-Praha-5.jpg');
+    background: linear-gradient(135deg, var(--primary-color) 0%, #e8e9eb 100%);
+    background-image: url('https://zbynekkozina.cz/images/uploads/10318/66498781d42f6_Financni-poradenstvi-Praha-5.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
 }
 
 .hero-overlay {
