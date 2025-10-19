@@ -100,7 +100,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, var(--primary-color) 0%, #2563eb 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, #616774 100%);
     background-image: url('images/uploads/10318/66498781d42f6_Financni-poradenstvi-Praha-5.jpg');
     background-size: cover;
     background-position: center;
