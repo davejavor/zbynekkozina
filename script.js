@@ -1,6 +1,3 @@
-// ============================================
-// Smooth Scroll
-// ============================================
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -14,9 +11,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// ============================================
-// Scroll to Top Button
-// ============================================
+// Scroll to Top
 const scrollTopBtn = document.getElementById('scrollTop');
 
 window.addEventListener('scroll', () => {
@@ -34,9 +29,7 @@ scrollTopBtn.addEventListener('click', () => {
     });
 });
 
-// ============================================
 // Scroll Animations (AOS)
-// ============================================
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -59,9 +52,6 @@ document.querySelectorAll('[data-aos]').forEach(el => {
     observer.observe(el);
 });
 
-// ============================================
-// Active Link Highlighting
-// ============================================
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.header-contact a[href^="#"]');
 
@@ -84,9 +74,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// ============================================
-// Header Shrink on Scroll
-// ============================================
 const header = document.querySelector('.header-contact');
 let lastScroll = 0;
 
@@ -102,9 +89,6 @@ window.addEventListener('scroll', () => {
     lastScroll = currentScroll;
 });
 
-// ============================================
-// Performance: Lazy Load Images
-// ============================================
 if ('IntersectionObserver' in window) {
     const imageObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -122,9 +106,6 @@ if ('IntersectionObserver' in window) {
     });
 }
 
-// ============================================
-// Service Cards Hover Effect Enhancement
-// ============================================
 document.querySelectorAll('.service-card').forEach(card => {
     card.addEventListener('mouseenter', function() {
         this.style.borderLeft = '4px solid var(--secondary-color)';
@@ -135,4 +116,4 @@ document.querySelectorAll('.service-card').forEach(card => {
     });
 });
 
-console.log('✅ Website loaded successfully!');
+console.log('Website loaded successfully!');

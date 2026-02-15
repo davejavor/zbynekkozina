@@ -1,12 +1,9 @@
-/* ============================================
-   CSS Variables - Professional Color Palette
-   ============================================ */
 :root {
-    --primary-color: #545558;      
-    --secondary-color: #d4af37;     /* Gold */
-    --accent-color: #f8fafc;        /* Light Gray */
-    --text-dark: #1f2937;           /* Dark Gray */
-    --text-light: #6b7280;          /* Medium Gray */
+    --primary-color: #545558;
+    --secondary-color: #d4af37;
+    --accent-color: #f8fafc;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
     --white: #ffffff;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
@@ -48,9 +45,7 @@ img {
     display: block;
 }
 
-/* ============================================
-   Header Contact Bar
-   ============================================ */
+/* Header Contact Bar*/
 .header-contact {
     background: var(--primary-color);
     color: var(--white);
@@ -88,9 +83,7 @@ img {
     color: var(--secondary-color);
 }
 
-/* ============================================
-   Hero Section
-   ============================================ */
+/* Hero Section */
 .hero {
     position: relative;
     height: 600px;
@@ -155,9 +148,7 @@ img {
     background: #e0b831;
 }
 
-/* ============================================
-   Animations
-   ============================================ */
+/* Animations*/
 .fade-in {
     animation: fadeIn 1s ease-in;
 }
@@ -181,9 +172,7 @@ img {
     }
 }
 
-/* ============================================
-   Services Section
-   ============================================ */
+/* Services Section */
 .services {
     padding: 80px 0;
     background: var(--accent-color);
@@ -259,9 +248,7 @@ img {
     transform: translateX(5px);
 }
 
-/* ============================================
-   Service Detail Sections
-   ============================================ */
+/* Service Detail Sections */
 .service-detail {
     padding: 80px 0;
 }
@@ -326,9 +313,7 @@ img {
     font-size: 1.2rem;
 }
 
-/* ============================================
-   About Section
-   ============================================ */
+/* About Section */
 .about {
     padding: 80px 0;
     background: var(--white);
@@ -347,9 +332,7 @@ img {
     color: var(--text-dark);
 }
 
-/* ============================================
-   Contact Section
-   ============================================ */
+/* Contact Section */
 .contact {
     padding: 80px 0;
     background: var(--accent-color);
@@ -405,9 +388,7 @@ img {
     color: var(--primary-color);
 }
 
-/* ============================================
-   Footer
-   ============================================ */
+/* Footer */
 .footer {
     background: var(--primary-color);
     color: var(--white);
@@ -428,9 +409,7 @@ img {
     color: var(--secondary-color);
 }
 
-/* ============================================
-   Scroll to Top Button
-   ============================================ */
+/* Scroll to Top Button */
 .scroll-top {
     position: fixed;
     bottom: 30px;
@@ -459,9 +438,7 @@ img {
     background: #e0b831;
 }
 
-/* ============================================
-   Responsive Design
-   ============================================ */
+/* Responsive Design */
 @media (max-width: 768px) {
     .hero {
         height: 500px;

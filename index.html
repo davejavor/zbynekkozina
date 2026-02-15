@@ -1,52 +1,254 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <title>Webové návrhy - Zbyněk Kožina</title>
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            max-width: 800px;
-            margin: 100px auto;
-            padding: 20px;
-        }
-        .version-card {
-            border: 2px solid #1e3a8a;
-            padding: 30px;
-            margin: 20px 0;
-            border-radius: 12px;
-            transition: transform 0.3s;
-        }
-        .version-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
-        a {
-            display: inline-block;
-            background: #d4af37;
-            color: #000;
-            padding: 12px 30px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 15px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Finanční poradce, hypoteční poradce Praha 5 | Ing. Zbyněk Kožina</title>
+    <meta name="description" content="Finanční poradce, hypoteční poradce Praha 5. Hypotéky, pojištění, investice, důchodové pojištění.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>🎨 Webové návrhy pro Ing. Zbyňka Kožinu</h1>
-    
-    <div class="version-card">
-        <h2>1. Původní design (WEDOS)</h2>
-        <p>Původní verze z WEDOS WebSite</p>
-        <a href="zbynekkozina.cz/">Zobrazit web →</a>
-    </div>
-    
-    <div class="version-card">
-        <h2>2. Vlastní redesign</h2>
-        <p>Design s navy blue a zlatou</p>
-        <a href="redesign/">Zobrazit web →</a>
-    </div>
-    
+    <header class="header-contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+420737264286">+420 737 264 286</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:zbynek.kozina@swisslifeselect.cz">zbynek.kozina@swisslifeselect.cz</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Ing. Zbyněk Kožina</h1>
+            <p class="hero-subtitle fade-in-delay">Finanční a hypoteční poradce Praha</p>
+            <a href="#kontakt" class="btn-primary fade-in-delay-2">Nezávazná konzultace</a>
+        </div>
+    </section>
+
+    <section class="services" id="sluzby">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Finanční poradenství</h3>
+                    <p>Komplexní finanční poradenství pro dosažení vašich životních cílů</p>
+                    <a href="#financni-poradenstvi" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Hypotéka</h3>
+                    <p>Najdu pro vás tu nejvýhodnější hypotéku na trhu</p>
+                    <a href="#hypoteka" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Pojištění</h3>
+                    <p>Ochrana vašeho majetku a příjmů pro klid v každé situaci</p>
+                    <a href="#pojisteni" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Investice</h3>
+                    <p>Dlouhodobé zhodnocení vašich financí s minimálním rizikem</p>
+                    <a href="#investice" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Důchodové pojištění</h3>
+                    <p>Zajištění finančně bezstarostného důchodu</p>
+                    <a href="#duchodove-pojisteni" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Reality</h3>
+                    <p>Spolupráce s realitní makléřkou pro kompletní servis</p>
+                    <a href="#reality" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section class="service-detail" id="financni-poradenstvi">
+        <div class="container">
+            <h2>Finanční poradenství</h2>
+            <div class="detail-content">
+                <p><strong>Pro klienty zajišťuji komplexní a nezávislé finanční poradenství. Hledáte finančního poradce? Neváhejte mě kontaktovat.</strong></p>
+                
+                <p>Jako finanční poradce poskytuji klientovi odborný názor na řešení životních potřeb v oblasti jeho privátních financí, což zahrnuje poskytování rad ohledně hospodaření s finančními prostředky, vytváření majetku a investování finančních prostředků.</p>
+                
+                <p>Finanční plánování je základem pro dosažení životních cílů.</p>
+                
+                <p>Každý člověk v průběhu svého života řeší nejrůznější potřeby, které souvisí s finančními produkty: spoření (úspory a jejich rozvoj), zdravotní, životní, penzijní nebo majetkové pojištění, hypotéční financování, úvěrové zdroje a jiné.</p>
+                
+                <p>Cílem je finanční nezávislost a možnost žít život podle vlastních představ.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-detail alt-bg" id="hypoteka">
+        <div class="container">
+            <h2>Hypotéka</h2>
+            <div class="detail-content">
+                <p><strong>Pro klienty zajišťuji sjednání hypotéky a poradenství v oblasti hypoték. Potřebujete sjednat hypotéku? Neváhejte mě kontaktovat.</strong></p>
+                
+                <p>Ušetřete čas, peníze i nervy – najdu pro vás tu nejvýhodnější hypotéku na trhu!</p>
+                
+                <p>Přenechejte mi starosti o financování nového bydlení, jakož i získání a správu hypotečního úvěru. Jsem profesionál s více než 20-ti letými zkušenostmi a jedinečným know-how.</p>
+                
+                <p>Vyhledám nejoptimálnější řešení pro hospodárné a bezproblémové financování nákupu či výstavby vaší nemovitosti, ale i refinancování hypotéky, pojištění apod.</p>
+                
+                <p>Hypotečním úvěrem můžete financovat až 80% (mladí do 36 let až 90%) zástavní hodnoty nemovitosti. Hypotékou můžete financovat i nákup investiční nemovitosti určené k dalšímu pronájmu.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-detail" id="pojisteni">
+        <div class="container">
+            <h2>Pojištění</h2>
+            <div class="detail-content">
+                <p><strong>Pro klienty zajišťuji veškeré pojišťovací služby. Potřebujete nové pojištění, nebo staré nevyhovující chcete upravit? Neváhejte mě kontaktovat.</strong></p>
+                
+                <p>Život s sebou nese rizika, která ho mohou obrátit naruby. Abyste byli i v horších časech finančně zabezpečeni a mohli žít život podle vlastních představ, je vhodné sjednat si pojištění.</p>
+                
+                <div class="info-box">
+                    <h3>Typy pojištění</h3>
+                    <ul>
+                        <li>Ochrana příjmů - životní a úrazové pojištění</li>
+                        <li>Ochrana majetku - neživotní pojištění: domy a domácnosti, vozidla, kanceláře atd.</li>
+                        <li>Pojištění odpovědnosti</li>
+                        <li>Ochrana dalších rizik - cestovní pojištění, pojištění sportu atd.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-detail alt-bg" id="investice">
+        <div class="container">
+            <h2>Investice</h2>
+            <div class="detail-content">
+                <p><strong>Pro klienty zajišťuji veškeré investiční poradenství. Hledáte vhodný investiční produkt? Neváhejte mě kontaktovat.</strong></p>
+                
+                <p>Vhodné investování volných prostředků - s ohledem na investiční horizont - je základem pro naplnění finančního plánu rodiny.</p>
+                
+                <p>Zpracuji pro vás investiční plán a nabídku. Nabídnu vám investiční řešení optimální pro vaši aktuální situaci tak, abyste mohli žít život podle vlastních představ i v budoucnu.</p>
+                
+                <p>Individuální přístup a investiční plán jsou základem pro stabilizaci a růst majetku a jeho ochrana před inflací a před zbytečnými riziky.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-detail" id="duchodove-pojisteni">
+        <div class="container">
+            <h2>Důchodové pojištění</h2>
+            <div class="detail-content">
+                <p><strong>Pro klienty zajišťuji poradenství v oblasti důchodového pojištění. Chcete se zorientovat v dlouhodobých investičních plánech a zajistit se tak na důchod? Neváhejte mě kontaktovat.</strong></p>
+                
+                <p>Zabývám se finančním poradenstvím v oblasti důchodového zabezpečení.</p>
+                
+                <p>Vedle klasických nástrojů, jako jsou doplňkové penzijní spoření či otevřené podílové fondy, nabízím i unikátní řešení založené na zkušenostech naší švýcarské mateřské společnosti Swiss Life.</p>
+                
+                <p>DIP (Dlouhodobý Investiční Produkt) je státem podporované řešení, které nabízí možnost investovat s daňovými výhodami a příspěvkem zaměstnavatele.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-detail alt-bg" id="reality">
+        <div class="container">
+            <h2>Investice do realit</h2>
+            <div class="detail-content">
+                <p>Úzce spolupracuji s realitní makléřkou Monikou Tomkovou, která se v Praze zaměřuje na prodej a pronájem nemovitostí. Bližší informace najdete na webu realitní kanceláře <a href="https://www.realkomplet.cz/" target="_blank" rel="noopener">REAL KOMPLET</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="o-mne">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Ing. Zbyněk Kožina</h2>
+                    <p>Ve finanční oblasti se pohybuji přes 20 let. Posledních 10 let jsem pracoval pro banky a další finanční instituce.</p>
+                    
+                    <p>Před tím jsem pracoval ve firmě IMB (finanční sektor).</p>
+                    
+                    <p>Nyní jsem finanční poradce se specializací na hypotéky a pracuji pro švýcarskou společnost Swiss Life. Swiss Life je stabilní společnost s dlouhodobou historií a vysokou prestiží. Řadí se mezi nejlepší poradenské firmy v Evropě.</p>
+                    
+                    <p>Mám platné certifikace České Národní Banky pro oblast úvěrů, investic a pojištění.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-phone fa-2x"></i>
+                    <h3>Telefon</h3>
+                    <a href="tel:+420737264286">+420 737 264 286</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:zbynek.kozina@swisslifeselect.cz">zbynek.kozina@swisslifeselect.cz</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                    <h3>Lokalita</h3>
+                    <p>Praha a okolí</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ing. Zbyněk Kožina - Finanční poradce</p>
+                <p class="footer-links">
+                    <a href="tel:+420737264286">+420 737 264 286</a> | 
+                    <a href="mailto:zbynek.kozina@swisslifeselect.cz">zbynek.kozina@swisslifeselect.cz</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
