@@ -88,6 +88,7 @@ img {
 .contact-item i,
 .contact-item svg {
     color: var(--secondary-color);
+    fill: var(--secondary-color);
     font-size: 18px;
 }
 
@@ -419,6 +420,7 @@ section[id] {
 .contact-card i,
 .contact-card svg {
     color: var(--secondary-color);
+    fill: var(--secondary-color);
     margin-bottom: 20px;
 }
 
