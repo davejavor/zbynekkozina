@@ -125,9 +125,9 @@ Stáhneš 12 SVG souborů z fontawesome.com/icons (filtr: Free / Solid) a každ�
 <!-- path z staženého SVG souboru -->
 </svg>
 
-| Velikost | 0 KB externího zdroje – pouze pár stovek bytů inline |
-| HTTP requesty | 0 (žádný)
-| Stylování | fill: currentColor – barva se dědí z CSS
-| fa-2x | Nahradíš width: 2em; height: 2em přímo na SVG | 
-| Správa | Ruční – při změně ikony editovat HTML | 
-| Vhodné pro | 	Statický web jako tento | 
+| Velikost      | 0 KB externího zdroje – pouze pár stovek bytů inline  |
+| HTTP requesty | 0 (žádný)                                             |
+| Stylování     | fill: currentColor – barva se dědí z CSS              |
+| fa-2x         | Nahradíš width: 2em; height: 2em přímo na SVG         | 
+| Správa        | Ruční – při změně ikony editovat HTML                 | 
+| Vhodné pro    | 	Statický web jako tento                             | 
