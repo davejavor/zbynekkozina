@@ -48,6 +48,7 @@ const header = document.querySelector('.header-contact');
 const sections = document.querySelectorAll('section[id]');
 const navLinksItems = document.querySelectorAll('.nav-links a[href^="#"]');
 let ticking = false;
+let lastScrollY = 0;
 
 function onScroll() {
     const y = window.scrollY;
@@ -57,10 +58,17 @@ function onScroll() {
         scrollTopBtn.classList.toggle('visible', y > 300);
     }
 
-    // Header shrink
+    // Hide header on scroll down, show on scroll up
     if (header) {
+        const menuOpen = navLinks && navLinks.classList.contains('open');
+        if (y > lastScrollY && y > 80 && !menuOpen) {
+            header.classList.add('header-hidden');
+        } else {
+            header.classList.remove('header-hidden');
+        }
         header.classList.toggle('scrolled', y > 100);
     }
+    lastScrollY = y;
 
     // Active nav link
     let current = '';
