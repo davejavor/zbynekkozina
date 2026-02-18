@@ -117,17 +117,17 @@ Live: [zbynekkozina.cz](https://zbynekkozina.cz/)
 Stáhneš 12 SVG souborů z fontawesome.com/icons (filtr: Free / Solid) a každý <i class="fas fa-..."> nahradíš inline <svg>.
 
 ## Příklad nahrazení:
-    <!-- Dříve -->
-    <i class="fas fa-phone" aria-hidden="true"></i>
+<!-- Dříve -->
+<i class="fas fa-phone" aria-hidden="true"></i>
 
-    <!- - Inline SVG -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true">
-    <!-- path z staženého SVG souboru -->
-    </svg>
+<!- - Inline SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+<!-- path z staženého SVG souboru -->
+</svg>
 
-    | Velikost| 0 KB externího zdroje – pouze pár stovek bytů inline |
-    | HTTP requesty | 0 (žádný)
-    | Stylování | fill: currentColor – barva se dědí z CSS
-    | fa-2x | Nahradíš width: 2em; height: 2em přímo na SVG | 
-    | Správa | Ruční – při změně ikony editovat HTML | 
-    | Vhodné pro | 	Statický web jako tento | 
+| Velikost | 0 KB externího zdroje – pouze pár stovek bytů inline |
+| HTTP requesty | 0 (žádný)
+| Stylování | fill: currentColor – barva se dědí z CSS
+| fa-2x | Nahradíš width: 2em; height: 2em přímo na SVG | 
+| Správa | Ruční – při změně ikony editovat HTML | 
+| Vhodné pro | 	Statický web jako tento | 
