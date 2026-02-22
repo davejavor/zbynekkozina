@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22.130203mm"
+   height="21.769953mm"
+   viewBox="0 0 22.130203 21.769953"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer2"
+     style="display:inline"
+     transform="translate(-64.922229,-70.006045)">
+    <rect
+       style="fill:#d4af37;fill-opacity:1;stroke:#d4af37;stroke-width:0.275202;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect5"
+       width="21.855"
+       height="21.494751"
+       x="65.05983"
+       y="70.143646" />
+  </g>
+  <g
+     id="layer1"
+     transform="translate(-64.922229,-70.006045)">
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:20.8609px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1e3a5c;stroke:#1e3a5c;stroke-width:0.961477;stroke-linecap:round;stroke-linejoin:round"
+       transform="scale(0.92121113,1.0855275)"
+       x="71.958534"
+       y="81.641594"
+       id="text7">Z</text>
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:20.2131px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1e3a5c;stroke:#1e3a5c;stroke-width:0.931624;stroke-linecap:round;stroke-linejoin:round"
+       transform="scale(0.89344323,1.1192653)"
+       x="83.44622"
+       y="79.157791"
+       id="text6">K</text>
+  </g>
+</svg>
